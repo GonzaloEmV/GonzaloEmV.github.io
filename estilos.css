@@ -1,0 +1,182 @@
+*{
+	box-sizing: border-box;
+}
+
+.titulo-cv{
+	background-color: #AED6F1;
+	margin-bottom: 20px;
+	padding: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+i{
+	background: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.foto-perfil{
+	padding: 20px;
+	border: 1px solid rgb(180, 180, 180);
+	margin-bottom: 15px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+	background-color: white;
+}
+
+.titulo-datos{
+	margin-top: 10px;
+	border-bottom: 1px solid #0288D1;
+	font-weight: bold;
+	color: black;
+}
+
+.datos-personales{
+	max-height: 220px;
+	border: 1px solid rgb(180, 180, 180);
+	background-color: white;
+	font-size: 14px;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.datos{
+	margin-bottom: 10px;
+	height: 45px;
+	border: 1px solid #0288D1;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+	transition: all .5s ease;
+	font-size: 13px;
+}
+
+.datos i{
+	margin-right: 10px;
+}
+
+.datos:hover{
+	font-size: 15px;
+	background-color: #0288D1;
+	color: white;
+}
+
+.inferior{
+	padding: 0;
+	margin: 0;
+	padding: 10px;
+}
+
+nav{
+	padding: 0;
+	margin: 0;
+}
+
+.ul{
+	padding: 10px;
+	margin: 0;
+	border: 1px solid rgb(180, 180, 180);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+	margin-bottom: 30px;
+}
+
+li{
+	list-style: none;
+	height: 50px;
+	overflow: hidden;
+}
+
+.list{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+}
+
+.item{
+	cursor: pointer;
+	color: white;
+	background: #0288D1;
+	font-size: 	14px;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: space-between;
+	padding: 11px;
+	margin-bottom: 3px;
+	transition: all .5s ease-in;
+}
+
+.item:hover{
+	background-color: #006064;
+	color: white;
+}
+
+.item a{
+	text-decoration: none;
+	color: white;	
+}
+
+.item i{
+	padding: 5px;
+}
+
+.informacion{
+	margin-bottom: 15px;
+	display: block;
+	background-color: white;
+	border-left: 3px solid #0288D1;
+	border-right: 3px solid #0288D1;
+	border-bottom: 3px solid #0288D1;
+	border-top: none;
+	border-radius: 10px;
+	text-align: justify;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.8)
+}
+
+.contenido{
+	padding: 5px;
+	color: black;
+	font-size: 13px;
+}
+
+.contenido label{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.fa-award{
+	color: goldenrod;
+}
+.fa-person-digging{
+	color: #8D6E63;
+}
+
+.fa-informatica{
+	color:darkgreen;
+}
+
+.fa-user{
+	color: darkolivegreen;
+}
+
+
+.fa-chevron-down{
+	text-align: right;
+	transition: .5s;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.scale{
+	height: auto;
+}
+
+.rotate{
+	transform: rotate(180deg);
+}
+
